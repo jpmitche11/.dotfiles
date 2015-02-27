@@ -1,6 +1,8 @@
 export ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="robbyrussell"
+
+ZSH_CUSTOM=$HOME/.dotfiles/oh-my-zsh-custom
+ZSH_THEME="custom"
 CASE_SENSITIVE="true"
 DISABLE_AUTO_UPDATE="true"
 
