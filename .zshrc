@@ -64,4 +64,6 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/lo
 # For a full list of active aliases, run `alias`.
 source ~/.dotfiles/alias.sh
 
-
+export NPM_PACKAGES=$HOME/.npm-packages
+export NODE_PATH=$NPM_PACKAGES/lib/node_modules:$NODE_PATH
+export PATH="$PATH:$NPM_PACKAGES/bin"
