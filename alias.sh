@@ -16,4 +16,9 @@ alias gf='git fetch'
 alias gfu='git fetch upstream'
 alias gfo='git fetch origin'
 alias gcm='git checkout dev'
+alias gremoteBranch='for branch in `git branch -r | grep -v HEAD`;do echo -e `git show --format="%ci %cr" $branch | head -n 1` \\t$branch; done | sort -r'
 
+
+alias ip='ifconfig en0 | grep "inet "'
+
+alias gitMergeTrash='find . -type f -name "*BASE*" -o -name "*LOCAL*" -o -name "*REMOTE*" -o -name "*BACKUP*"'

@@ -1,5 +1,6 @@
 export ZSH=$HOME/.oh-my-zsh
 
+export JAVA_HOME=/Library/Java/Home
 
 ZSH_CUSTOM=$HOME/.dotfiles/oh-my-zsh-custom
 ZSH_THEME="custom"
@@ -38,7 +39,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:~/bin"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
