@@ -1,5 +1,8 @@
 alias pw="pwd"
 
+alias pd="pushd"
+alias ppd="popd"
+
 alias vizrc="vi ~/.zshrc"
 
 alias l="ls"
@@ -22,3 +25,5 @@ alias gremoteBranch='for branch in `git branch -r | grep -v HEAD`;do echo -e `gi
 alias ip='ifconfig en0 | grep "inet "'
 
 alias gitMergeTrash='find . -type f -name "*BASE*" -o -name "*LOCAL*" -o -name "*REMOTE*" -o -name "*BACKUP*"'
+
+alias gbb="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
